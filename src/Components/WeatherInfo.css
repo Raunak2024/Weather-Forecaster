@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@300&family=Roboto:wght@500&display=swap");
+p {
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+}
+.weather__info {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.weather_content_header {
+  margin: 0 auto;
+}
+.weather_content_header p:nth-child(1) {
+  font-size: 2rem;
+  margin-bottom: 0;
+}
+.weather_content_header p:nth-child(2) {
+  margin-top: 0;
+  font-size: 0.8rem;
+}
+.weather_content_header ~ p {
+  width: max-content;
+  margin: 2rem auto;
+  font-size: 2.3rem;
+  font-weight: bolder;
+  padding: 1rem;
+  box-sizing: border-box;
+  color: #fff;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 0.58rem;
+}
